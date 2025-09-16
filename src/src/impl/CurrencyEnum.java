@@ -11,11 +11,11 @@ public enum CurrencyEnum{
     /**
      * US-Dollar
      */
-    DOLLAR ("USD", 1.09),
+    DOLLAR ("USD", 1.18),
     /**
      * Czech Crowns
      */
-    CZECH_CROWNS ("CZK", 25),
+    CZECH_CROWNS ("CZK", 24.32),
     /**
      * Danish Crowns
      */
@@ -23,15 +23,20 @@ public enum CurrencyEnum{
     /**
      * Australian Dollars
      */
-    AUSTRALIAN_DOLLARS ("AUD", 1.65),
+    AUSTRALIAN_DOLLARS ("AUD", 1.77),
     /**
      * Russian Rubel
      */
-    RUBEL ("RUB", 99.73),
+    RUBEL ("RUB", 97.64),
     /**
      * Japanese Yen
      */
-    YEN("JPY", 163.29);
+    YEN("JPY", 173.23);
+
+    /**
+    * Lebanese pound
+    */
+    LEBANESE_POUND("LBP", 105247)
     final Currency currency;
 
     /**
